@@ -1,0 +1,62 @@
+.container {
+  border: 3px solid #30382e;
+  width: 90vw;
+  max-width: 900px;
+  margin: 10px auto;
+}
+.container .box {
+  height: 10vh;
+  border-bottom: 3px solid #30382e;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  background-color: #c9ddb9;
+}
+.container .box input {
+  border: 3px solid #30382e;
+  height: 1.5rem;
+}
+.container .box button {
+  background-color: #30382e;
+  width: 6vw;
+  max-width: 60px;
+  height: 2rem;
+  color: #fff;
+  font-weight: bold;
+}
+
+.container ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.container ul li {
+  display: block;
+  width: 18.5vw;
+  max-width: 190px;
+  height: 33vh;
+  margin: 0.7rem;
+  border: 2px solid #30382e;
+  background-color: #e6ecc3;
+  text-align: center;
+}
+.container ul li img {
+  width: 95%;
+  height: 45%;
+}
+.container ul li h3 {
+  font-size: 1.1rem;
+  font-weight: 500;
+  margin: 1vh;
+  text-align: left;
+  color: #30382e;
+}
+.container ul li p {
+  font-size: 0.8rem;
+  margin: 1vh;
+  text-align: left;
+}
